@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abby Wang</title>
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="site-frame">
+
+  <!-- Home / bio panel (not active, links back to Home) -->
+  <a class="panel home-panel" href="index.html">
+    <div class="name">ABBY WANG</div>
+    <p>Hi, I'm a recent UC Berkeley graduate where I studied the <strong>Z-stack</strong> of neuroscience, molecular biology, and data science.</p>
+    <p>These days, you can find me pipetting away in the lab, digging through a design textbook, photographing the Bay Area music scene, or tackling my reading list at a local coffee shop.</p>
+    <div class="footer-note">San Francisco, CA</div>
+  </a>
+
+  <!-- Accordion nav: In vitro shown collapsed (before active), In silico expanded -->
+  <div class="accordion">
+
+    <a class="tab" href="in-vitro.html">
+      <span class="tab-label">In vitro</span>
+    </a>
+
+    <div class="tab active">
+      <div class="tab-content">
+
+        <div class="tab-main sticky-col">
+          <h1 class="tab-title">In silico</h1>
+
+          <p>I <strong>design</strong> (editorial, brand, campaign, decks, logo, web) and take <strong>photos</strong> (concert, editorial, food, street).</p>
+
+          <p>My work is pro bono and commercial, and also occasionally featured in writing at UC Berkeley's <a class="underline" href="https://kalx.berkeley.edu/blog/reviews/">KALX 90.7 FM radio</a>.</p>
+
+          <div class="tab-section">
+            <span class="label">Tools:</span>
+            <ul>
+              <li>Adobe Creative Cloud (Illustrator, Lightroom, InDesign, Photoshop, Premiere Pro)</li>
+              <li>Figma</li>
+              <li>Procreate</li>
+              <li>Blender</li>
+              <li>Code (Python, HTML/CSS, Java)</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Photo gallery: scrolls independently; more placeholder tiles
+             load in automatically as you approach the bottom (see js/gallery.js) -->
+        <div class="tab-gallery">
+          <div class="photo-grid"></div>
+          <div class="gallery-sentinel"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Info + Say hello are hidden while In silico is expanded -->
+  </div>
+
+</div>
+
+<script src="js/gallery.js"></script>
+</body>
+</html>
