@@ -21,6 +21,7 @@
     { file: '04.jpg',   cls: 'portrait'  },
     { file: '05.jpg',   cls: 'portrait'  },
     { file: '06.png',   cls: 'portrait'  },
+    { file: '06a.png',  cls: 'landscape' },
     { file: '07.jpeg',  cls: 'landscape' },
     { file: '08.jpeg',  cls: 'portrait',  url: 'https://www.therubinlab.org/' },
     { file: '09.png',   cls: 'landscape', url: 'https://www.therubinlab.org/' },
